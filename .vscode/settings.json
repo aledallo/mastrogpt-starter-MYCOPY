@@ -29,5 +29,9 @@
                 "cursorDown"
             ]
         }
+    ],
+    "python.analysis.extraPaths": [
+        "./tests/hello/test_",
+        "./packages/adalloca/reverse"
     ]
 }
