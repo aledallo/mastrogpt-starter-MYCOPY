@@ -1,4 +1,5 @@
 import chat
+import history
 
 def stateful(args):
   
@@ -10,7 +11,6 @@ def stateful(args):
     # load the history in the chat
     ch = chat.Chat(args)
     #TODO:E4.2 load the history
-    import history
     hi = history.History(args)
     hi.load(ch)
     #END TODO

@@ -7,6 +7,6 @@ def api(args):
     ch = chat.Chat(args)
     ch.add(f"user:{inp}")
     out = ch.complete()
-    streaming = True  
-  return { "output": out }
+  #TODO:E4.1 add streaming True
+  return { "output": out, "streaming": True }
   #END TODO
